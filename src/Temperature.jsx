@@ -20,7 +20,7 @@ function Temperature() {
                     temperature >= 10 && temperature < 30 ?
                         <span style={{ color: 'black' }}>It's nice <span role="img" aria-label="nice"></span>🌼</span>
                         :
-                        temperature >= 45 ?
+                        temperature > 30 ?
                             <span style={{ color: 'red' }}>It's warm <span role="img" aria-label="hot"></span>☀️</span> :
                             ""
             }

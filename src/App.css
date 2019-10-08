@@ -1,22 +1,26 @@
-.App {
-  text-align: center;
+.Celebrities__main{
+  display:flex;
+  justify-content: space-between;
+  
 }
 
-.App-logo {
-  height: 40vmin;
+.Celebrities_OneCelebrity{
+  cursor:pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Celebrities__container{
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  overflow:scroll;
+  
 }
 
-.App-link {
-  color: #09d3ac;
+.CelebDetail{
+  /* border:solid 1px red; */
+  width:50%;
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  overflow:scroll;
 }
